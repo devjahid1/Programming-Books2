@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Programming Books</string>
+
+    <!--Firebase App Update Code-->
+    <string name="new_update">Programming Books</string>
+    <string name="new_update_text">Dear User, New Version Available! Please Update Your App, And Enjoy New Features..</string>
+    <string name="playStoreLink">https://play.google.com/</string>
+    <!--Firebase App Update Code-->
+
+</resources>

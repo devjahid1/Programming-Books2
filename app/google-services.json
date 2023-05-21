@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365965540013",
+    "project_id": "programming-books-5d792",
+    "storage_bucket": "programming-books-5d792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365965540013:android:dedf7fd1d356aa04faa424",
+        "android_client_info": {
+          "package_name": "com.mjms.programmingbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365965540013-n3g6nfjhnbt5es31o289umchvn0m47p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnu7Z7VXygwcichB3v7PNCxLXPByrXzoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365965540013-n3g6nfjhnbt5es31o289umchvn0m47p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

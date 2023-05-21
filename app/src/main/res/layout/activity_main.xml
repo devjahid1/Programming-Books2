@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ABCFF3"
+    >
+
+    <!--Splash Screen-->
+    <!--Splash Screen-->
+
+    <LinearLayout
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/splash" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Programming Books"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!--Splash Screen-->
+    <!--Splash Screen-->
+
+    <!--Start-->
+    <!--Start-->
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--Algorithm & Android-->
+            <!--Algorithm & Android-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/algo"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/algo"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Algorithm"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/andro"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/android"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Andorid"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Algorithm & Android-->
+            <!--Algorithm & Android-->
+
+            <!--Arduino & Back end-->
+            <!--Arduino & Back end-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/ard"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ardu"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Arduino"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/back"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Back end"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Arduino & Back end-->
+            <!--Arduino & Back end-->
+
+            <!--C & C++-->
+            <!--C & C++-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/c"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/cplus"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C++"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--C & C++-->
+            <!--C & C++-->
+
+            <!--C# &CMS-->
+            <!--C# &CMS-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/csh"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/c_sharp"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="C Sharp"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cms"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/cms"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CMS"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--C# &CMS-->
+            <!--C# &CMS-->
+
+            <!--Database & Front end-->
+            <!--Database & Front end-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/data"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/data"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Database"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/front"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/front"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Front end"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Database & Front end-->
+            <!--Database & Front end-->
+
+            <!--Java & Javascript-->
+            <!--Java & Javascript-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/java"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/java"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Java"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/javas"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/js"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Javascript"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Java & Javascript-->
+            <!--Java & Javascript-->
+
+            <!--Lunux & Matlab-->
+            <!--Lunux & Matlab-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/linux"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/linux"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="linux"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/matl"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/matlab"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Matlab"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Lunux & Matlab-->
+            <!--Lunux & Matlab-->
+
+            <!--More & Ms Office-->
+            <!--More & Ms Office-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/more"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/more"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="More"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ms"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/office"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ms office"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--More & Ms Office-->
+            <!--More & Ms Office-->
+
+            <!--Python & Rasberry Pi-->
+            <!--Python & Rasberry Pi-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/python"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/python"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="python"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rasp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/raspberry"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Raspberry Pi"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Python & Rasberry Pi-->
+            <!--Python & Rasberry Pi-->
+
+            <!--Ruby & Ms Swift-->
+            <!--Ruby & Ms Swift-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:id="@+id/ruby"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ruby"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ruby"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/swift"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/swift"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Swift"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <!--Ruby & Ms Swift-->
+            <!--Ruby & Ms Swift-->
+
+
+            <!--Ios & interview-->
+            <!--Ios & interview-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:layout_marginBottom="20dp"
+                >
+                <LinearLayout
+                    android:id="@+id/ios"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:src="@drawable/apple"
+                        android:layout_marginTop="12dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ios"
+                        android:textSize="17dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/creak"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/bottom_shade"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:src="@drawable/creak"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Creaking The Coding Interview"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--Ios & interview-->
+            <!--Ios & interview-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+    <!--End Pdf-->
+    <!--End Pdf-->
+
+
